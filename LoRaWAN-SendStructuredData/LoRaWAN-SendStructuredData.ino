@@ -47,8 +47,8 @@ void setup() {
 
 void loop() {
 
-  ma_trame.V_HumOut = analogRead(A1)/1024.0*2200 ;
-  ma_trame.V_pHOut = analogRead(A1)/1024.0*3000 ;
+  ma_trame.V_HumOut = analogRead(A1)/1024.0*2200 ; // recupere les val de Hum et renvoye sous la forme de V
+  ma_trame.V_pHOut = analogRead(A1)/1024.0*3000 ; // recupere les val de pH et renvoye sous la forme de V
   ma_trame.CoordX = 0.0 ;
   ma_trame.CoordY = 0.0 ;
        
